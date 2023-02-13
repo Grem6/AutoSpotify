@@ -22,7 +22,7 @@
 
 <div align = "center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Aldrich&duration=2&pause=1000&color=FFFFFF&background=000000&center=true&vCenter=true&width=600&lines=Top+song+grabber+for+your+personal+spotify+playlist)](https://github.com/Grem6)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Aldrich&duration=2000&pause=1000&color=FFFFFF&background=000000&center=true&vCenter=true&width=600&lines=Top+song+grabber+for+your+personal+spotify+playlist)](https://github.com/Grem6)
  
 </div>
 
