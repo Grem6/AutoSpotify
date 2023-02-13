@@ -35,6 +35,7 @@
 - [About](#about)
 - [Setup](#setup)
 - [Screenshots](#shots)
+- [Demo](#demo)
 
 
 ## ⭐ About <a name = "about"></a>
@@ -46,7 +47,7 @@ AutoSpotify finds top songs from the global spotify weekly charts and automatica
 > Most of the autoSpotify inner working is handled by [Spotipy](https://spotipy.readthedocs.io/en/2.22.1/), a python library for spotify. To get started with running autospotify you need to register your app at [My Dashboard](https://developer.spotify.com/dashboard) to get the credentials necessary to make authorized calls (a client id and client secret)
 
 
-## Spotify Credentials Setup
+## 🔑 Spotify Credentials Setup
 
 1. Go to https://developer.spotify.com/dashboard
 
@@ -73,7 +74,7 @@ AutoSpotify finds top songs from the global spotify weekly charts and automatica
 > When you first run autospotify will ask you to input your *Client ID* & *Client Secret*. This will be saved locally and is used next time autospotify runs.
 
 
-## ⭐ Screenshots <a name = "shots"></a>
+## 📷 Screenshots <a name = "shots"></a>
 
 
 <img height=auto, width= 600 src="https://user-images.githubusercontent.com/97451337/218509692-c5234962-898a-4734-b037-4a2229fbd559.png" alt="Project logo"></a>
@@ -83,5 +84,10 @@ AutoSpotify finds top songs from the global spotify weekly charts and automatica
 <img height=auto, width= 600 src="https://user-images.githubusercontent.com/97451337/218510101-4efb100f-6855-44d7-abcc-16733c36fb34.png" alt="Project logo"></a>
 <img height=auto, width= 600 src="https://user-images.githubusercontent.com/97451337/218510133-c6538676-55de-4cc7-9906-e31bc76d8058.png" alt="Project logo"></a>
 
+
+## 📽️ Demo <a name = "demo"></a>
+
+
+https://user-images.githubusercontent.com/97451337/218515471-ea5b72e7-eafd-4d28-8b26-549ae81e4f71.mp4
 
 
