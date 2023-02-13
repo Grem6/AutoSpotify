@@ -42,6 +42,8 @@
 
 AutoSpotify finds top songs from the global spotify weekly charts and automatically adds it to your personal spotify playlist.
 
+> AutoSpotify is a personal project that I've been working on to develop my programming skills.  
+
 ## 🛠️ Setup <a name = "setup"></a>
 
 > Most of the autoSpotify inner working is handled by [Spotipy](https://spotipy.readthedocs.io/en/2.22.1/), a python library for spotify. To get started with running autospotify you need to register your app at [My Dashboard](https://developer.spotify.com/dashboard) to get the credentials necessary to make authorized calls (a client id and client secret)
