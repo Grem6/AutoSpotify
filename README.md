@@ -73,7 +73,7 @@ AutoSpotify finds top songs from the global spotify weekly charts and automatica
 
 <br>
 
-> When you first run autospotify will ask you to input your *Client ID* & *Client Secret*. This will be saved locally and is used next time autospotify runs.
+> When you first run autospotify will ask you to input your *Client ID* & *Client Secret*. This will be saved locally and is used next time when autospotify runs.
 
 
 ## 📷 Screenshots <a name = "shots"></a>
