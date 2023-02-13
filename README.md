@@ -1,8 +1,13 @@
 
 <p align="center">
   <a href="" rel="noopener">
- <img height=auto src="https://github.com/Grem6/AutoSpotify/blob/822f25273275cd958474d426c697595e0dae046f/assests/code.png" alt="Project logo"></a>
+ <img height=auto src="https://user-images.githubusercontent.com/97451337/218520213-36a39093-aaee-424f-9ee8-77d3213c2421.png" alt="Project logo"></a>
 </p>
+
+
+
+
+
 
 <br>
 <br> 
