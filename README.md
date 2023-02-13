@@ -47,7 +47,9 @@
 
 AutoSpotify finds top songs from the global spotify weekly charts and automatically adds it to your personal spotify playlist.
 
-> AutoSpotify is a personal project that I've been working on to develop my programming skills.  
+> AutoSpotify is a personal project that I've been working on to develop my programming skills. 
+
+*Works only with firfox browser right now. working to extend that functionality*
 
 ## 🛠️ Setup <a name = "setup"></a>
 
