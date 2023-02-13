@@ -34,6 +34,7 @@
 
 - [About](#about)
 - [Setup](#setup)
+- [Screenshots](#shots)
 
 
 ## ⭐ About <a name = "about"></a>
@@ -72,11 +73,15 @@ AutoSpotify finds top songs from the global spotify weekly charts and automatica
 > When you first run autospotify will ask you to input your *Client ID* & *Client Secret*. This will be saved locally and is used next time autospotify runs.
 
 
+## ⭐ Screenshots <a name = "shots"></a>
 
 
-
-
-
+<img height=auto, width= 600 src="https://user-images.githubusercontent.com/97451337/218509692-c5234962-898a-4734-b037-4a2229fbd559.png" alt="Project logo"></a>
+<img height=auto, width= 600 src="https://user-images.githubusercontent.com/97451337/218509743-5bafc52b-c988-4f57-854a-139040353a30.png" alt="Project logo"></a>
+<img height=auto, width= 600 src="https://user-images.githubusercontent.com/97451337/218509834-1dd7a882-3d41-4f51-b834-27b88f9f526a.png" alt="Project logo"></a>
+<img height=auto, width= 600 src="https://user-images.githubusercontent.com/97451337/218509992-bec11501-caba-4988-b185-a0bda160b36e.png" alt="Project logo"></a>
+<img height=auto, width= 600 src="https://user-images.githubusercontent.com/97451337/218510101-4efb100f-6855-44d7-abcc-16733c36fb34.png" alt="Project logo"></a>
+<img height=auto, width= 600 src="https://user-images.githubusercontent.com/97451337/218510133-c6538676-55de-4cc7-9906-e31bc76d8058.png" alt="Project logo"></a>
 
 
 
