@@ -72,11 +72,10 @@ AutoSpotify finds top songs from the global spotify weekly charts and automatica
 
 4. Copy the **Client ID" & "Client Secret**
 
-*for security reasons do not share your **Client Secret ID** with anyone*
+   ⚠️ *for security reasons do not share your **Client Secret ID** with anyone*
 
-5. Download **autospotify**
+5. Download **[autospotify](https://github.com/Grem6/AutoSpotify/releases)**
 
-*check the release section*
 
 <br>
 
