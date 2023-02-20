@@ -34,20 +34,47 @@ def auto_spotify():
     current_user = sp.current_user()
     user_id = current_user['id']
     print('\n')
-    print('Hi', current_user['display_name'])
+    print('Hi ' + current_user['display_name'] + '!')
     print('\n')
 
     playlist_exists = os.path.exists('playlists_auto.conf')
+    local_playlist_exists = os.path.exists('my_playlist.txt')
+    
 
     if playlist_exists:
-        
-        #if playlist created by autospotify already exists locally;
+    #if playlist created by autospotify/user already exists locally;
 
         config.read(r'playlists_auto.conf')
 
         playlist_id = config['playlist']['id']
         playlist_name = config['playlist']['name']
         print(f'playlist : {playlist_name} found! ')
+        
+        print('\x1b[0;32;40m' + 'Checking for locally saved songs..' + '\x1b[0m')
+    
+        if local_playlist_exists:
+            print('\x1b[0;32;40m' + 'local saves found!' + '\x1b[0m')
+            print('\x1b[0;32;40m' + 'Adding songs...' + '\x1b[0m')
+            with open('local_playlist.txt') as f:
+                while True:
+                    line = f.readline()
+                    if not line:
+                        break
+                    song = line.strip()
+                    
+                    output = sp.search(song, limit=1, offset=0,
+                                    type='track', market=None)
+                    for track in output['tracks']['items']:
+                        tracks = [track['uri']]
+                        
+                        sp.user_playlist_remove_all_occurrences_of_tracks(
+                            user_id, playlist_id, tracks)
+                        sp.user_playlist_add_tracks(
+                            user_id, playlist_id, tracks, position=None)
+            print('\x1b[0;32;40m' + 'All tracks added!' + '\x1b[0m')
+            print('\x1b[0;32;40m' + '**removed duplicate entries**' + '\x1b[0m')
+            
+        pass
         
         #user choice to add to locally found playlist
         # if yes, run this;
@@ -159,3 +186,4 @@ def auto_spotify():
         print('\x1b[0;32;40m' + 'All tracks added!' + '\x1b[0m')
         print('\x1b[0;32;40m' + '**removed duplicate entries**' + '\x1b[0m')
 
+    

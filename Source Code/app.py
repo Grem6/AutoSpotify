@@ -35,7 +35,7 @@ MARKDOWN = """
 
 *refer read-me for more info*
 
-- Version: 1.0
+- Version: 1.1
 - Gecko-version: 0.32.2
 - Browser-client: firefox⭐
 - Developer: **Grem**
